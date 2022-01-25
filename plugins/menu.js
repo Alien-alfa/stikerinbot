@@ -194,112 +194,238 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "listType": "SINGLE_SELECT",
           "sections": [
             {
-              "rows": [
-                {
-                  "title": `Semua Perintah`,
-                  "description": "",
-                  "rowId": `${_p}? all`
+                "rows": [{
+                  "title": `*★ミ★𝙈𝘼𝙄𝙉 𝙈𝙀𝙉𝙐★彡★*`,
+                  "description": "All Commands menu",
+                  "rowId": `.mainmenu`
+                  }],
+                "title": `List Menu ${conn.user.name}`
+              }, {
+                "rows": [{
+                  "title": `𝘼𝘿𝙈𝙄𝙉 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Commands for Group Admins",
+                  "rowId": `.m1`
+                }],
+                "title": "─────「 1 」"
+              }, {
+                "rows": [{
+                  "title": `𝙂𝙍𝙊𝙐𝙋 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Commands For Group",
+                  "rowId": `.m8`
+                }],
+                "title": "─────「 2 」"
+              }, {
+                "rows": [{
+                  "title": `𝙄𝙉𝙏𝙀𝙍𝙉𝙀𝙏 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Internet Tools for Fun",
+                  "rowId": `.m7`
+                }],
+                "title": "─────「 3 」"
                 }, {
-                  "title": "Game",
+                "rows": [{
+                  "title": `𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Commands Only Owner Can Use",
+                  "rowId": `.m3`
+                }],
+                "title": "─────「 4 」"
+              }, {
+                "rows": [{
+                  "title": `𝘿𝙀𝙏𝘼𝘽𝘼𝙎𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Detabase management Commands For Owner",
+                  "rowId": `.m4`
+                }],
+                "title": "─────「 5 」"
+              }, {
+                "rows": [{
+                  "title": `𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Sticker Convertor Commands",
+                  "rowId": `.m2`
+                }],
+                "title": "─────「 6 」"
+              }, {
+                "rows": [{
+                  "title": `𝙂𝘼𝙈𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Fun Group Game commands",
+                  "rowId": `.m9`
+                }],
+                "title": "─────「 7 」"
+              }, {
+                "rows": [{
+                  "title": `𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Internet Media Downloader Commands",
+                  "rowId": `$m6`
+                }],
+                "title": "─────「 8 」"
+              }, {
+                "rows": [{
+                  "title": `𝙈𝘼𝙄𝙉 𝙏𝙊𝙊𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "Tools That Can be Utilized",
+                  "rowId": `$m5`
+                }],
+                "title": "─────「 9 」"
+              }, {
+                "rows": [{
+                  "title": `𝙀𝙓𝙏𝙍𝘼 𝙄𝙏𝙀𝙈𝙎`,
+                  "description": "Some Extra Items",
+                  "rowId": `$me10`
+                }],
+                "title": "─────「 10 」"
+              }, {
+                "rows": [{
+                  "title": `𝙀𝙓𝙋 & 𝙇𝙄𝙈𝙄𝙏`,
+                  "description": "Main Tools For BOT",
+                  "rowId": `$me11`
+                }],
+                "title": "─────「 11 」"
+              }, {
+                "rows": [{
+                  "title": `𝙆𝙀𝙍𝘼𝙉𝙂 𝘼𝙅𝘼𝙄𝘽`,
                   "description": "",
-                  "rowId": `${_p}? game`
-
+                  "rowId": `.me12`
+                }],
+                "title": "─────「 12 」"
+              }, {
+                "rows": [{
+                  "title": `𝙈𝘼𝙂𝙀𝙍𝙉𝙐𝙇𝙄𝙎 & 𝙇𝙊𝙂𝙊`,
+                  "description": "",
+                  "rowId": `.me13`
+                }],
+                "title": "─────「 13 」"
+              }, {
+                "rows": [{
+                  "title": `𝙁𝙐𝙉 𝙈𝙀𝙉𝙐`,
+                  "description": "",
+                  "rowId": `.me14`
+                 }],
+                 "title": "─────「 14 」"
+              }, {
+                "rows": [{
+                  "title": `𝙑𝙊𝙏𝙄𝙉𝙂 𝙁𝙐𝙉𝘾𝙏𝙄𝙊𝙉𝙎`,
+                  "description": "",
+                  "rowId": `.me15`
+                }],
+                "title": "─────「 15 」"
+              }, {
+                "rows": [{
+                  "title": `𝙍𝙊𝙇𝙇 𝘾𝘼𝙇𝙇`,
+                  "description": "",
+                  "rowId": `.me16`
+                }],
+                "title": "─────「 16 」"
+              }, {
+                "rows":[{
+                  "title": `𝙏𝙀𝙈𝙋𝙊𝙍𝘼𝙍𝙔 𝘽𝙊𝙏`,
+                  "description": "",
+                  "rowId": `.me17`
+                }],
+                "title": "─────「 17 」"
+              }, {
+                "rows": [{
+                  "title": `𝙃𝙊𝙎𝙏 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "",
+                  "rowId": `.me18`
+                }],
+                "title": "─────「 18 」"
+              }, {
+                "rows": [{
+                  "title": `𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "",
+                  "rowId": `.me19`
+                }],
+                "title": "─────「 19 」"
+              }, {
+                "rows": [{
+                  "title": `𝙑𝙄𝘿𝙀𝙊𝙈𝘼𝙆𝙀𝙍 𝙏𝙊𝙊𝙇𝙎`,
+                  "description": "",
+                  "rowId": `.me20`
+                }],
+                "title": "─────「 20 」"
+              }, {
+                "rows": [{
+                  "title": `𝙀𝙓𝙋 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎`,
+                  "description": "",
+                  "rowId": `.me21`
+                }],
+                "title": "─────「 21 」"
+              }, {
+                "rows": [{
+                  "title": `𝙈𝘼𝙍𝙆𝙀𝙍 𝙏𝙊𝙊𝙇𝙎`,
+                  "description": "",
+                  "rowId": `.me22`
+                }],
+                "title": "─────「 22 」"
+              }, {
+                "rows": [{
+                  "title":  `𝙂𝙄𝙏 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙏𝙊𝙊𝙇𝙎`,
+                  "description": "",
+                  "rowId": `.me23`
+                }],
+                "title": "─────「 23 」"
+              }, {
+                "rows": [{
+                  "title": `𝙉𝙀𝙒𝙎  & 𝙄𝙉𝙁𝙊`,
+                  "description": "",
+                  "rowId": `.me24`
+                }],
+                "title": "─────「 24 」"
+              }, {
+                "rows": [{
+                  "title":  `𝘼𝙐𝘿𝙄𝙊 𝙏𝙊𝙊𝙇𝙎`,
+                  "description": "",
+                  "rowId": `.me25`
+                }],
+                "title": "─────「 25 」"
+              }, {
+                "rows": [{
+                  "title":  `𝙂𝙍𝙊𝙐𝙋𝙄𝙉𝙁𝙊`,
+                  "description": "",
+                  "rowId": `.groupinfo`
+                }],
+                "title": "─────「 26 」"
+              }, {
+                "rows": [{
+                  "title":  `𝙍𝙀𝙂𝙄𝙎𝙏𝙀𝙍 𝙔𝙊𝙐𝙍 𝘿𝘼𝙏𝘼𝘽𝘼𝙎𝙀`,
+                  "description": "",
+                  "rowId": `.register`
+                }],
+                "title": "─────「 27 」"
+              }, {
+                "rows": [{
+                  "title":  `𝙔𝙊𝙐𝙍 𝙋𝙍𝙊𝙁𝙄𝙇𝙀`,
+                  "description": "",
+                  "rowId": `.profile`
+                }],
+                "title": "─────「 28 」"
                 }, {
-                  "title": "XP",
+                "rows": [{
+                  "title":  `𝘽𝙊𝙏 𝙄𝙉𝙁𝙊`,
                   "description": "",
-                  "rowId": `${_p}? xp`
-
+                  "rowId": `.info`
+                }],
+                "title": "─────「 29 」"
                 }, {
-                  "title": "Stiker",
-                  "description": "",
-                  "rowId": `${_p}? stiker`
+                "rows": [{
+                  "title":  `𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍/𝘼𝘿𝙈𝙄𝙉`,
+                  "description": "Contact Of The Creator",
+                  "rowId": `.owner`
+                }],
+                "title": "─────「 30 」"
                 }, {
-                  "title": "Kerang Ajaib",
-                  "description": "",
-                  "rowId": `${_p}? kerangajaib`
-                }, {
-                  "title": "Quotes",
-                  "description": "",
-                  "rowId": `${_p}? quotes`
-                }, {
-                  "title": "Admin",
-                  "description": "",
-                  "rowId": `${_p}? admin`
-                }, {
-                  "title": "Grup",
-                  "description": "",
-                  "rowId": `${_p}? grup`
-                }, {
-                  "title": "Premium",
-                  "description": "",
-                  "rowId": `${_p}? premium`
-                }, {
-                  "title": "Internet",
-                  "description": "",
-                  "rowId": `${_p}? internet`
-                }, {
-                  "title": "Anonymous",
-                  "description": "",
-                  "rowId": `${_p}? anonymous`
-                }, {
-                  "title": "Nulis & Logo",
-                  "description": "",
-                  "rowId": `${_p}? nulis`
-                }, {
-                  "title": "Downloader",
-                  "description": "",
-                  "rowId": `${_p}? downloader`
-                }, {
-                  "title": "Tools",
-                  "description": "",
-                  "rowId": `${_p}? tools`
-                }, {
-                  "title": "Fun",
-                  "description": "",
-                  "rowId": `${_p}? fun`
-                }, {
-                  "title": "Database",
-                  "description": "",
-                  "rowId": `${_p}? database`
-                }, {
-                  "title": "Vote & Absen",
-                  "description": "",
-                  "rowId": `${_p}? vote`
-                }, {
-                  "title": "Al-Qur\'an",
-                  "description": "",
-                  "rowId": `${_p}? quran`
-                }, {
-                  "title": "Pengubah Suara",
-                  "description": "",
-                  "rowId": `${_p}? audio`
-                }, {
-                  "title": "Jadi Bot",
-                  "description": "",
-                  "rowId": `${_p}? jadibot`
-                }, {
-                  "title": "Info",
-                  "description": "",
-                  "rowId": `${_p}? info`
-                }, {
-                  "title": "Tanpa Kategori",
-                  "description": "",
-                  "rowId": `${_p}? tanpakategori`
-                }, {
-                  "title": "Owner",
-                  "description": "",
-                  "rowId": `${_p}? owner`
-                }
-              ]
+                "rows": [{
+                  "title":  `𝙍𝙀𝘼𝘾𝙃 𝙊𝙐𝙏`,
+                  "description": "Jual rdp murah dll",
+                  "rowId": `.contact`
+                }],
+                "title": "WTS RDP MURAH"
+              }
+            ], "contextInfo": {
+              "stanzaId": m.key.id,
+              "participant": m.sender,
+              "quotedMessage": m.message
             }
-          ], "contextInfo": {
-            "stanzaId": m.key.id,
-            "participant": m.sender,
-            "quotedMessage": m.message
-          }
         }
       }, {}), { waitForAck: true })
-    }
+      }
     // gunakan ini jika kamu menggunakan whatsapp bisnis
     //   throw `
     // ┌〔 DAFTAR MENU 〕
