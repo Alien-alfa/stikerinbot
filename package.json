@@ -12,9 +12,13 @@
     "start": "node .",
     "test": "node test"
   },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariffb25/stikerinbot.git"
+    "url": "git+https://github.com/Alien-alfa/stikerinbot.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -24,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/ariffb25/stikerinbot/issues"
   },
-  "homepage": "https://github.com/ariffb25/stikerinbot",
+  "homepage": "https://github.com/Alien-alfa/stikerinbot",
   "dependencies": {
     "@adiwajshing/baileys": "github:melcanz/Baileys",
     "awesome-phonenumber": "^2.54.0",
