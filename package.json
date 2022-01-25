@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Alien-alfa/stikerinbot",
   "dependencies": {
-    "@adiwajshing/baileys": "github:adiwajshing/baileys#multi-device",
+    "@adiwajshing/baileys": "github:melcanz/Baileys",
     "awesome-phonenumber": "^2.54.0",
     "axios": "^0.21.1",
     "brainly-scraper-v2": "^2.0.3",
