@@ -9,10 +9,6 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node .",
-    "test": "node test"
-  },
-  "scripts": {
     "start": "node index.js",
     "test": "node test.js"
   },
